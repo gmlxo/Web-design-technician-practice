@@ -23,8 +23,11 @@
     width: 100%;
     position: absolute;
     top: 0;
-    left: -100%;
+    /* left: -100%; */
+    right: -100%;
 }
 
-/* 첫 이미지 찾아주는? 가장 앞 */
-.slide>img:first-child { left: 0; }
+.slide>img:first-child {
+    /* left: 0; */
+    right: 0;
+}
