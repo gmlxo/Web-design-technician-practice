@@ -1,0 +1,35 @@
+body {
+    background-color: #000;
+}
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.slide {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide>img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: -100%;
+}
+
+.slide>img:first-child {
+    right: 0;
+}
+
+.mainImage { border: 1px solid #a0a0a0; }
+
+.mainImage > span { font-size: 15px; }

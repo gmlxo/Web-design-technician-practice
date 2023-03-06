@@ -1,9 +1,9 @@
 var slide = $(".slide>img");
 var sno = 0;
 var eno = slide.length - 1;
-var timer = setInterval("silde()", 3000);
+var timer = setInterval("autosilde()", 3000);
 
-function silde() {
+function autosilde() {
     $(slide[sno]).stop().animate({
         right: "100%"
     }, 1000, function () {
