@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #666;
+    list-style: none;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+#contents {
+    height: 500px;
+    margin-top: 20px;
+    position: relative;
+    /* display: inherit; */
+}
+
+#contents > article {
+    float: left;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #666;
+}
+
+.notice {
+    width: 400px;
+    position: relative;
+    left: 50px;
+}
+
+.contentpop {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border: 1px solid #000;
+    background-color: #fff;
+    display: none;
+}
+
+.contentpop p {
+    padding: 30px 30px;
+}
+
+.exit {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* width: 200px; */
+}
+
+.partner {
+    position: absolute;
+    left: 500px;
+    width: 500px;
+}
+
+.partner img {
+    width: 160px;
+    height: 100px;
+    cursor: pointer;
+    float: left;
+    padding: 5px;
+    margin-top: 40px;
+}
+
+.tab {
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    border-top: 1px solid #333;
+    border-bottom: 0;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 30px;
+    position: relative;
+    z-index: 999;
+}
+
+.partner .tab {
+    background-color: #999;
+}
+
+.notice .tab {
+     background-color: #fff;
+}
+
+.notice ul li {
+    height: 45px;
+    line-height: 45px;
+    padding: 5px;
+    float: left;
+    border-bottom: 1px solid #333;
+}
+
+.notice ul li:first-child {
+    width: 250px;
+}
+
+.box {
+    border: 1px solid #333;
+    width: 100%;
+    height: 200px;
+    margin-top: -1px;
+}
+
+.links {
+    width: 200px;
+    position: absolute;
+    right: 50px;
+}
+
+.links a {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 33px;
+    background-color: #008fda;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 33px;
+    text-align: center;
+}
