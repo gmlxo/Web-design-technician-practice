@@ -16,7 +16,7 @@
     height: 500px;
     margin-top: 20px;
     position: relative;
-    /* display: inherit; */
+    display: inherit;
 }
 
 #contents > article {
