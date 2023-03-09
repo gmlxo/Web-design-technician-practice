@@ -5,13 +5,12 @@
     color: #333;
     text-decoration: none;
     list-style: none;
-    text-align: center;
 }
 
 #wrapper {
     width: 1200px;
     margin: 0 auto;
-    background-color: rgb(255, 255, 0);
+    background-color: yellow;
 }
 
 header {
@@ -24,48 +23,63 @@ header > div {
     float: left;
 }
 
-#header-logo { width: 200px; }
+.logo {
+    width: 200px;
+    text-align: center;
+}
+
+.logo > img {
+    margin: auto;
+}
 
 .menu {
     position: absolute;
-     right: 50px;
-    padding: 50px;
+    right: 50px;
+    padding-top: 50px;
     z-index: 1;
 }
 
-.menu>ul>li {
+.menu > ul > li {
     width: 200px;
     height: 50px;
     line-height: 50px;
     float: left;
+    text-align: center;
     font-weight: bold;
     font-size: 15px;
-    background-color: #379ef5;
+    background-color: #379fe5;
 }
 
-.menu>ul>li>a {
+.menu > ul > li >a {
     display: block;
     color: #fff;
 }
 
-.menu>ul>li>ul>li {
-    background-color: #95B0C8;
+.menu > ul > li > ul >li {
+    background-color: #95b0c8;
     z-index: 1;
 }
 
-.menu>ul>li>ul>li>a {
+.menu  > ul > li > ul >li > a{
     height: 35px;
     line-height: 35px;
     display: block;
+    text-align: center;
 }
 
-.menu>ul>li>ul {
-    display: block;
+.menu > ul > li > ul {
+    display: none;
 }
 
-.menu>ul>li:hover { background-color: #9aabf8; }
+.menu > ul > li:hover {
+    background-color: #9aabf8;
+}
 
-.mainImge {
+.menu > ul > li > ul > li:hover {
+    background-color: #9ffbff;
+}
+
+.mainImg {
     width: 1200px;
     height: 300px;
     border: 1px solid blue;
