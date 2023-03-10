@@ -1,0 +1,62 @@
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+    text-decoration: none;
+    list-style: none;
+}
+
+#wrapper {
+    width: 1200px;
+    height: 100px;
+    background-color: #c6ceeb;
+    position: relative;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+
+footer .f-logo {
+    width: 300px;
+    text-align: left;
+}
+
+.copy {
+    width: 600px;
+    text-align: center;
+}
+
+footer .sns {
+    width: 300px;
+    text-align: right;
+}
+
+footer .sns a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.5rem;
+}
+
+.f {
+    background-color: #1240ff;
+    color: #fff;
+}
+
+.i {
+    background-color: #ff3b00;
+    color: #fff;
+}
+
+.t {
+    background-color: #85bbff;
+    color: #fff;
+}
