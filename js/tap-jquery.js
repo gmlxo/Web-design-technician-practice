@@ -1,11 +1,11 @@
 $(".tab-news").click(function () {
     $(this).css({
         "border-bottom": "0",
-        "backgraound-color": "#fff"
+        "background-color": "#fff"
     });
     $(".tab-gallery").css({
         "border-bottom": "1px solid #000",
-        "backgraound-color": "#888"
+        "background-color": "#888"
     });
     $(".gallery").hide();
     $(".news").show();
@@ -14,11 +14,11 @@ $(".tab-news").click(function () {
 $(".tab-gallery").click(function () {
     $(this).css({
         "border-bottom": "0",
-        "backgraound-color": "#fff"
+        "background-color": "#fff"
     });
     $(".tab-news").css({
         "border-bottom": "1px solid #000",
-        "backgraound-color": "#888"
+        "background-color": "#888"
     });
     $(".news").hide();
     $(".gallery").show();
