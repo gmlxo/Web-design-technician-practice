@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wrapper {
+            width: 100%;
+            height: 300px;
+        }
+
+        .slide {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .slide>img {
+            width: 100%;
+            position: absolute;
+            top: 0;
+            right: -100%;
+        }
+
+        .slide>img:first-child {
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="slide">
+            <img src="/images/food.jpg" alt="">
+            <img src="/images/food1.jpg" alt="">
+            <img src="/images/food2.jpg" alt="">
+            <img src="/images/food3.jpg" alt="">
+        </div>
+    </div>
+    <script src="/js/jquery-3.1.1.js"></script>
+    <script src="/js/slide-image-Training-jquery.js"></script>
+</body>
+
+</html>
