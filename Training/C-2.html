@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/C-2_style.css">
+    <script src="/js/jquery-3.1.1.js"></script>
+    <script async src="/js/C-2-jquery.js"></script>
     <title>Document</title>
 </head>
 
@@ -60,10 +62,10 @@
             </div>
             <div class="contents flex">
                 <div class="notice">
-                    <span class="notice-title title">공지사항</span>
+                    <span class="notice-title title text-center border">공지사항</span>
                     <div class="notice-box border contents-box">
                         <ul>
-                            <li class="left"><a href="#">연잎차 동호회 안내</a></li>
+                            <li class="left"><a href="javascript:popup();">연잎차 동호회 안내</a></li>
                             <li class="right">2020-06-15</li>
                         </ul>
                         <ul>
@@ -81,7 +83,7 @@
                     </div>
                 </div>
                 <div class="gallery">
-                    <span class="gallery-title title">갤러리</span>
+                    <span class="gallery-title title text-center border">갤러리</span>
                     <div class="gallery-box flex border contents-box">
                         <img src="/images/g1_c2.jpg" alt="">
                         <img src="/images/g2_c2.jpg" alt="">
@@ -111,6 +113,15 @@
                 </select>
             </div>
         </footer>
+    </div>
+    <div id="pop">
+        <div class="pop-title">연잎을 사랑하는 연잎차 동호회 정기모임을 안내합니다.</div>
+        <p class="left">
+            동호회 회원 여러분의 많은 관심과 참여 부탁드립니다.<br>
+            일시 : 2020년 06월 28일<br>
+            장소 : 부여시청 2층 회의실
+        </p>
+        <button class="right close-btn" onclick="closePop()">닫기</button>
     </div>
 </body>
 
