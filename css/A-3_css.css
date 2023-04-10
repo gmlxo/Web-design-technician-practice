@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #333;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+div#wapper {
+    margin: 0 auto;
+    width: 1200px;
+    height: 700px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.flex {
+    display: flex;
+}
+
+.border {
+    border: 1px solid #000;
+}
+.text-center {
+    text-align: center;
+}
+.none {
+    display: none;
+}
+
+/* header */
+header#header {
+    width: 1200px;
+    height: 100px;
+}
+
+ul.main {
+    position: relative;
+    margin-top: 77px;
+}
+
+ul.main>li>a {
+    display: block;
+    width: 150px;
+    font-size: 1.2em;
+}
+
+ul.sub-menu {
+    position: absolute;
+    z-index: 9;
+}
+
+ul.sub-menu>li>a {
+    width: 150px;
+    display: block;
+    background-color: #0066ad;
+    color: #fff;
+}
+
+
+ul.main li a:hover {
+    background-color: #30a3f3;
+    color: #fff;
+}
+
+/* main */
+div.slide {
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+div.slide>div.slide-box {
+    position: absolute;
+    z-index: -9;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+div.slide>div.slide-box>span {
+    background-color: #0066ad;
+    color: #fff;
+    z-index: 9;
+    position: inherit;
+    width: 230px;
+    height: 50px;
+    line-height: 50px;
+}
+
+div.slide>div.slide-box:first-child{
+    opacity: 1;
+}
+
+div.tab>span.notice, div.tab>span.gallery {
+    display: block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+}
+
+ul.notice-box, div.tab>span.notice {
+    background-color: #0066ad;
+}
+
+
+ul.notice-box {
+    width: 400px;
+    height: 42px;
+    line-height: 42px;
+}
+
+ul.notice-box>li:nth-child(1) {
+    width: 270px;
+}
+ul.notice-box>li:nth-child(2) {
+    width: 130px;
+}
+
+div.main-contents {
+    width: 1200px;
+    height: 200px;
+}
+
+div.gallery-box {
+    height: 170px;
+    display: none;
+}
+
+div.notice-box, div.gallery-box,  div.banner, div.direct{
+    width: 400px;
+}
+
+div.banner, div.direct {
+    position: relative;
+}
+
+div.banner>img, div.direct>img{
+    position: absolute;
+    z-index: -9;
+}
+
+div.banner>span, div.direct>span{
+    position: absolute;
+    display: block;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    z-index: 9;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+}
+
+/* footer */
+footer#footer {
+    width: 1200px;
+    height: 100px;
+}
+
+div.footer-menu {
+    justify-content: space-around;
+}
+
+div.copy {
+    margin-top: 20px;
+}
+/* pop */
+div#pop {
+    z-index: 999;
+    width: 500px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    display: none;
+}
