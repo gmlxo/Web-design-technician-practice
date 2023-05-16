@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/js/C-3.css">
+    <script src="/js/jquery-3.1.1.js"></script>
+    <script async src="/js/C-3.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <img src="/images/logo_c3.png" alt="header logo" class="h-logo" width="150" height="80">
+            <div class="menu">
+                <ul class="main">
+                    <li>
+                        <a href="#">협회소개</a>
+                        <ul class="sub">
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">명인</a></li>
+                            <li><a href="#">오시는길</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">행사안내</a>
+                        <ul class="sub">
+                            <li><a href="#">요리경연대회</a></li>
+                            <li><a href="#">전시참가</a></li>
+                            <li><a href="#">축제소식</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">홍보마당</a>
+                        <ul class="sub">
+                            <li><a href="#">축제소식</a></li>
+                            <li><a href="#">보도자료</a></li>
+                            <li><a href="#">레시피</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">회원마당</a>
+                        <ul class="sub">
+                            <li><a href="#">Q&A</a></li>
+                            <li><a href="#">사진갤러리</a></li>
+                            <li><a href="#">공지사항</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="slide">
+                <div>
+                    <label for="slide1">남도맛기행 축제1</label>
+                    <img src="/images/img1_c3.jpg" alt="남도맛기행 축제1" width="850" height="350">
+                </div>
+                <div>
+                    <label for="slide2">남도맛기행 축제2</label>
+                    <img src="/images/img2_c3.jpg" alt="남도맛기행 축제2" width="850" height="350">
+                </div>
+                <div>
+                    <label for="slide3">남도맛기행 축제3</label>
+                    <img src="/images/img3_c3.jpg" alt="남도맛기행 축제3" width="850" height="350">
+                </div>
+            </div>
+            <div class="contents">
+                <div class="notice">
+                    <b class="title"><a href="#">공지사항</a></b>
+                    <ul>
+                        <li><a href="javascript:popUp();">남도맛기행 축제 음식 이야기</a></li>
+                        <li><a href="#">2020.03.14</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">축제에서 즐기는 풍경</a></li>
+                        <li><a href="#">2020.03.14</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">남도 음식 만들기</a></li>
+                        <li><a href="#">2020.03.14</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">건강에 좋은 음식</a></li>
+                        <li><a href="#">2020.03.14</a></li>
+                    </ul>
+                </div>
+                <div class="gallery">
+                    <b class="title"><a href="#">갤러리</a></b>
+                    <img src="/images/icon1_c3.jpg" alt="icon 1 image">
+                    <img src="/images/icon2_c3.jpg" alt="icon 2 image">
+                    <img src="/images/icon3_c3.jpg" alt="icon 3 image">
+                </div>
+                <div class="banner">
+                    <img src="/images/banner_c3.jpg" alt="banner image">
+                    <button><b><a href="#">배너</a></b></button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <img src="/images/footerLogo_c3.png" alt="footer logo image" width="180" height="100">
+            <div class="f-box">
+                <div class="f-menu">
+                    <a href="#">하단메뉴1</a><a href="#">하단메뉴2</a><a href="#">하단메뉴3</a>
+                </div>
+                <div id="copy"><a href="#">COPYRIGHT&copy; by WEBDESIGN. ALL RIGHTS RESERVED</a></div>
+            </div>
+        </footer>
+    </div>
+    <div id="pop">
+        <label class="p-title">남도맛행 축제 음식 이야기</label>
+        <p>
+            남도맛기행 축제의 모든 음식과 전시정보를 한눈에 볼 수 있습니다. 남도맛기행 축제 관련 공연과 캘린더 배포, 자전거 투어 행사, 
+            야경 명소 등 자연환경을 살린 아름다운 남도에서의 축제 정보를 안내해드립니다.
+        </p>
+        <button onclick="javascript:popClose()">닫기</button>
+    </div>
+</body>
+</html>
