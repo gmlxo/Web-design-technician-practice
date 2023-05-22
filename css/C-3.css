@@ -2,7 +2,7 @@
     margin: 0; padding: 0; list-style: none; text-decoration: none; color: #333;
 }
 
-#wrapper { width: 1000px; height: 650px;  margin: 0 auto; } header { float: left; background-color: rgb(202, 251, 202); }
+#wrapper { width: 1000px; height: 650px; } header { float: left; background-color: rgb(202, 251, 202); }
 header>.menu { height: 570px; width: 150px; } ul.main { position: relative; padding: 10px; }
 ul.main>li>a {
     display: block; width: 130px; height: 50px; background-color: #fff; border: none; text-align: center;
@@ -20,9 +20,9 @@ ul.main>li>a:hover { background-color: #050; color: #fff; }
     background-color: rgb(202, 251, 202); height: 30px; line-height: 30px;
 } .contents { width: 850px; height: 200px; float: right; } .contents>div { width: calc(850px/3); height: 200px; float: left; }
 .title { display: block; width: 100px; height: 40px; line-height: 40px; text-align: center;} .notice>ul { height: 30px; line-height: 30px; }
-.notice>ul>li:nth-child(1) { padding-left: 7px; float: left; } .notice>ul>li:nth-child(2) { float: right; } .gallery>img { margin-left: 14px; }
+.notice>ul>li:nth-child(1) { padding-left: 7px; float: left; } .notice>ul>li:nth-child(2) { float: right; } .gallery>img { margin-left: 5px; width: 80px; height: 156px; }
 .banner { position: relative; } .banner>img { width: calc(850px/3); height: 200px; } 
 #pop { width: 300px; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%); background-color: #fff; border: 1px solid #000; display: none;}
 .banner>button { position: absolute; z-index: 5; left: 50%; top: 50%; transform: translate(-50%, -50%); width: 50px; height: 30px; background-color: #fff; border: none;}
-.f-box { float: right;} footer>img { float: left; } #copy, .f-menu { width: 670px; height: 50px; text-align: center; line-height: 50px;} 
-.f-menu { display: flex; justify-content: space-around; } 
+.f-box { float: right;} footer>img { float: left; } #copy, .f-menu { width: 670px; height: 50px; text-align: center; line-height: 50px;} .f-menu { display: flex; justify-content: space-around; }
+.gallery:hover img:not(:hover) { opacity: .3; } .gallery:hover img:hover { opacity: 1; }
