@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000;
+    min-width: 1200px;
+    height: 100px;
+    width: 100%;
+}
+
+#h-box {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.h-logo {
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin: 30px;
+}
+#menu { position: relative; margin-top: 63px; float: right; }
+x#menu>ul.main-menu>li { float: left; }
+#menu>ul.main-menu>li>a {
+    background-color: #fff;
+    display: block;
+    width: 120px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+}
+#menu>.sub-box {
+    display: none;
+    z-index: 9;
+    left: -720px;
+    width: 1200px;
+    background-color: #cacaca;
+    margin-top: 30px;
+    position: absolute;
+}
+.sub-menu {
+    float: right;
+}
+#menu>.sub-box>.sub-menu>ul {
+    float: left;
+}
+
+#menu>.sub-box>.sub-menu>ul>li>a {
+    display: block;
+    width: 120px;
+    text-align: center;
+    height: 35px;
+    line-height: 35px;
+}
+
+#menu ul>li>a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+main {
+    margin: 0 auto;
+    height: 500px;
+    width: 1200px;
+}
+
+.slide {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.slide>div {
+    position: absolute;
+    width: 1200px;
+    height: 300px;
+    top: 100%;
+}
+
+.slide>div:first-child {
+    top: 0;
+}
+
+.slide>div>span {
+    position: absolute;
+    z-index: 5;
+    background-color: #fff;
+}
+
+.contents {
+    width: 1200px;
+    height: 200px;
+}
+.contents>div { 
+    float: left;
+    width: 400px;
+}
+.contents>div:last-child { float: right; }
+.contents .n-title, .contents .g-title {
+    display: block;
+    height: 27px;
+    line-height: 27px;
+    width: 80px;
+    text-align: center;
+}
+.contents>.n-box ul {
+    height: 50px;
+}
+.contents>.n-box ul>li:first-child {
+    float: left; width: 200px;
+}
+.contents>.n-box ul>li:last-child {
+    float: right; width: 120px;
+}
+.d-box {
+    position: relative;
+}
+.d-box>a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: #fff;
+    z-index: 9;
+}
+
+footer {
+    height: 100px;
+    min-width: 1200px;
+    width: 100%;
+    background-color: #000;
+}
+
+.f-box {
+    width: 1200px;
+    display: block;
+}
+.f-box>div {
+    margin-top: -27px;
+}
+#copy {
+    width: 1000px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    float: left;
+    color: #fff;
+}
+
+.f-menu {
+    width: 200px;
+    height: 100px;
+    float: right;
+}
+.sns>img {
+    border-radius: 50%;
+}
+
+#pop { 
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #000;
+}
