@@ -7,14 +7,14 @@ $(".main_menu ul li").hover(
 );
 
 var slide = $(".slide>div");
-var n = 0, num = slide.length-1;
+var n = 0, num = slide.length-2;
 setInterval(() => {
     $(slide[n]).animate({
         top: "100%"
     }, 1000, function() {
         $(this).css({ top: "-100%"})
     });
-    n = (n+1>num)? 0: n+=1;
+    n = (n>num)? 0: n+=1;
     $(slide[n]).animate({
         top: "0"
     }, 1000);

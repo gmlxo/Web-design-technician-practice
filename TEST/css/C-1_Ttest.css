@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* utf-8 사용 해야함 */
+
+/* < css 시작전 유의사항 : 와이어 프레임만 적용하기 위하여  border: 1px solid #333;을 사용함 실제로는 적용 x > */
+
+/* 여기서 전체 공통으로 먹여줘야 하는것들이 있음 */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* 이번 유형의 기본텍스트 색은 #333333임 */
+    color: #333333;
+}
+
+.wrapper {
+    width: 1000px;
+    float: left;
+}
+
+
+header {
+    float: left;
+    border: 1px solid #333333;
+    width: 200px;
+    height: 650px;
+}
+
+
+.logo {
+    float: left;
+    border-bottom: 1px solid #333333;
+    width: 200px;
+    height: 100px;
+}
+
+.rights {
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-top: 1px solid #333333;
+    float: right;
+    width: 800px;
+    height: 650px;
+}
+
+
+.slide {
+    width: 800px;
+    height: 350px;
+    border-bottom: 1px solid #333333;
+}
+
+.contents {
+    width: 800px;
+    height: 200px;
+    border-bottom: 1px solid #333333;
+    position: relative;
+    display: flex;
+}
+
+.news {
+    border-right: 1px solid #333333;
+    width: calc(800px/3);
+    height: 200px;
+}
+
+.gallery {
+    border-right: 1px solid #333333;
+    width: calc(800px/3);
+    height: 200px;
+}
+
+.banner {
+    width: calc(800px / 3);
+    height: 200px;
+}
+
+
+footer {
+    width: 800px;
+    height: 100px;
+}
+
+.flogo {
+    float: left;
+    border-right: 1px solid #333333;;
+    width: 200px;
+    height: 100px;
+}
+
+.fmenu {
+    float: right;
+    border-bottom: 1px solid #333333;
+    width: 600px;
+    height: 50px;
+}
+
+.copyright {
+    float: right;
+    width: 600px;
+    height: 50px;
+}
