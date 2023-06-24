@@ -22,3 +22,10 @@ function autoslide() {
         opacity: "1"
     }, 1000);
 }
+
+$(".tab1").click(function() {
+    $(".tab1").css({ "background-color": "#fff"});
+    $(".tab2").css({ "background-color": "aquamarine"});
+    $(".news").show();
+    $(".gallery").hide();
+});
